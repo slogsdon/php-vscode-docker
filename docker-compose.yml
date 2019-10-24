@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  php:
+    build: .
+    working_dir: /workspace
+    volumes:
+      - '.:/workspace'
+      - 'packages:/workspace/vendor'
+
+volumes:
+  packages:

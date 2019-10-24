@@ -1,0 +1,5 @@
+# ignore package installation directory in case
+# they are installed in the local / host system
+vendor/
+
+.phpunit.result.cache

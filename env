@@ -1,0 +1,3 @@
+# allows commands to be ran easier from host system
+alias php="docker-compose run --rm php php"
+alias composer="docker-compose run --rm php composer"
